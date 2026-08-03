@@ -1,0 +1,254 @@
+XGBOOST WEIGHTED MODEL REPORT
+================================================================================
+
+================================================================================
+ARTresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 5.3112
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 3094
+Negative samples  : 16433
+Test prevalence   : 0.1661
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.9300
+Test PR-AUC       : 0.9416
+Difference        : 0.0116
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9947    0.9256    0.9589      4071
+           1     0.7230    0.9753    0.8304       811
+
+    accuracy                         0.9338      4882
+   macro avg     0.8589    0.9505    0.8947      4882
+weighted avg     0.9496    0.9338    0.9376      4882
+
+
+Test Accuracy     : 0.9338
+
+================================================================================
+CQresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 0.9627
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 9949
+Negative samples  : 9578
+Test prevalence   : 0.5086
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.9900
+Test PR-AUC       : 0.9879
+Difference        : -0.0022
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9951    0.9296    0.9612      2399
+           1     0.9360    0.9956    0.9649      2483
+
+    accuracy                         0.9631      4882
+   macro avg     0.9656    0.9626    0.9630      4882
+weighted avg     0.9650    0.9631    0.9631      4882
+
+
+Test Accuracy     : 0.9631
+
+================================================================================
+MQresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 35.7049
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 532
+Negative samples  : 18995
+Test prevalence   : 0.0258
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.5012
+Test PR-AUC       : 0.5320
+Difference        : 0.0308
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9989    0.9346    0.9657      4756
+           1     0.2801    0.9603    0.4337       126
+
+    accuracy                         0.9353      4882
+   macro avg     0.6395    0.9475    0.6997      4882
+weighted avg     0.9803    0.9353    0.9519      4882
+
+
+Test Accuracy     : 0.9353
+
+================================================================================
+PPQresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 53.2417
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 360
+Negative samples  : 19167
+Test prevalence   : 0.0262
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.4633
+Test PR-AUC       : 0.4924
+Difference        : 0.0290
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9986    0.8957    0.9443      4754
+           1     0.1974    0.9531    0.3271       128
+
+    accuracy                         0.8972      4882
+   macro avg     0.5980    0.9244    0.6357      4882
+weighted avg     0.9776    0.8972    0.9281      4882
+
+
+Test Accuracy     : 0.8972
+
+================================================================================
+PYRresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 0.1104
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 17585
+Negative samples  : 1942
+Test prevalence   : 0.8970
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.9920
+Test PR-AUC       : 0.9903
+Difference        : -0.0017
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.3599    0.8608    0.5076       503
+           1     0.9810    0.8242    0.8958      4379
+
+    accuracy                         0.8279      4882
+   macro avg     0.6705    0.8425    0.7017      4882
+weighted avg     0.9170    0.8279    0.8558      4882
+
+
+Test Accuracy     : 0.8279
+
+================================================================================
+SDXresistant
+================================================================================
+X_rare ,associated and known undetermied    rare = 0.2
+
+MODEL PARAMETERS
+----------------------------------------
+n_estimators      : 300
+max_depth         : 4
+learning_rate     : 0.05
+subsample         : 0.8
+colsample_bytree  : 0.8
+scale_pos_weight  : 0.2660
+
+DATA
+----------------------------------------
+Training samples  : 19527
+Test samples      : 4882
+Positive samples  : 15424
+Negative samples  : 4103
+Test prevalence   : 0.7878
+
+PR-AUC
+----------------------------------------
+Train PR-AUC      : 0.9650
+Test PR-AUC       : 0.9647
+Difference        : -0.0003
+
+TEST CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.4563    0.8716    0.5990      1036
+           1     0.9542    0.7202    0.8209      3846
+
+    accuracy                         0.7524      4882
+   macro avg     0.7052    0.7959    0.7099      4882
+weighted avg     0.8485    0.7524    0.7738      4882
+
+
+Test Accuracy     : 0.7524
