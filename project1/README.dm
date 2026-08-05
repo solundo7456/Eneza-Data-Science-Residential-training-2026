@@ -100,3 +100,95 @@ project1/
 │   └── ml.ipynb
 │
 └── README.md
+
+# Scripts / Notebooks
+
+The `scripts/` directory contains the notebooks used to perform the different
+stages of the analysis. Each notebook focuses on a specific part of the
+malaria genomic surveillance workflow.
+
+The notebooks are designed to work together, with outputs from earlier stages
+being used as inputs for later analyses.
+
+### `cleaned_metadata.ipynb`
+
+This notebook prepares and cleans the sample metadata used throughout the
+project.
+
+The main purpose is to make the metadata suitable for linking genomic data with
+information such as country, geographical region, and sampling period.
+
+The cleaned metadata are then used in the downstream genotype, population
+structure, geographic, and machine-learning analyses.
+
+---
+
+### `genotype.ipynb`
+
+This notebook processes the parasite genotype data and prepares the genomic
+features used in the analysis.
+
+The notebook focuses on resistance-associated genetic variation, including
+known markers and additional mutations.
+
+The main steps include:
+
+- loading the genotype data;
+- selecting relevant resistance-associated markers;
+- processing genotype calls;
+- identifying resistant and sensitive states;
+- handling rare or other mutations;
+- handling missing genotype information;
+- preparing processed genotype features.
+
+The resulting processed genotype data are used in both the population-structure
+and machine-learning analyses.
+
+---
+
+### `pca.ipynb`
+
+This notebook investigates the genetic population structure of the African
+parasite samples.
+
+The analysis uses genetic-distance information to explore relationships among
+parasite samples and includes:
+
+- filtering and preparing African samples;
+- analysing genetic distances;
+- dimensionality reduction using PCA/PCoA;
+- K-means clustering;
+- evaluating the resulting clusters;
+- comparing genetic clusters with geographical information.
+
+The purpose is to determine whether parasite samples form distinct genetic
+groups and whether these groups show geographical patterns.
+
+---
+
+### `ml.ipynb`
+
+This notebook contains the machine-learning analysis for predicting
+antimalarial drug resistance from parasite genomic features.
+
+The notebook prepares genomic features and resistance-associated target labels,
+then trains and evaluates classification models.
+
+The analysis includes:
+
+- preparing genomic features;
+- preparing resistance targets;
+- examining target distributions;
+- handling class imbalance;
+- train/test splitting;
+- stratified cross-validation;
+- Random Forest classification;
+- XGBoost classification;
+- class-weighted modelling;
+- PR-AUC and ROC-AUC evaluation;
+- precision, recall, and F1-score;
+- feature-importance analysis.
+
+The notebook is used to investigate how well genomic variation can predict
+resistance-associated phenotypes and which genomic features contribute most to
+the predictions.
