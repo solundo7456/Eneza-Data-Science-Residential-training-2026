@@ -53,6 +53,7 @@ Investigate genetic population structure among African *P. falciparum* samples u
 - K-means clustering;
 - cluster-stability measures;
 - geographic comparisons.
+for more information[../data/readme]
 
 ### 4. Machine-learning prediction
 
