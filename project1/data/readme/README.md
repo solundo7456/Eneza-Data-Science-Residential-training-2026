@@ -88,19 +88,24 @@ project1/
 │
 ├── data/
 │   │
+│   └── readme
+│         │
+          └── README.md
+          │
+          └── pop_struct_README.md
 │   ├── raw/
 │   │   └── Original/input datasets used for the analysis
 │   │
 │   └── processed/
-│       └── Data and results produced during the analysis
+│     │
+      └── Data and results produced during the analysis
 │
 ├── scripts/
 │   ├── cleaned_metadata.ipynb
 │   ├── genotype.ipynb
 │   ├── pca.ipynb
 │   └── ml.ipynb
-│
-└── README.md
+
 
 # Scripts / Notebooks
 
