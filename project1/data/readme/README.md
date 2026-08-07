@@ -106,7 +106,7 @@ project1/
 │   ├── pca.ipynb
 │   └── ml.ipynb
 
-
+```
 # Scripts / Notebooks
 
 The `scripts/` directory contains the notebooks used to perform the different
