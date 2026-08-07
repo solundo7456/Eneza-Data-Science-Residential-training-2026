@@ -84,28 +84,24 @@ Additional annotation and biological information were obtained from resources su
 # Repository Structure
 
 ```text
-project1/
+malaria-genomic-surveillance/
 │
 ├── data/
-│   │
-│   └── readme
-│         │
-          └── README.md
-          │
-          └── pop_struct_README.md
-│   ├── raw/
-│   │   └── Original/input datasets used for the analysis
-│   │
-│   └── processed/
-│     │
-      └── Data and results produced during the analysis
+│   ├── raw/                 # Original Pf8 data and metadata
+│   └── readme/              # Data documentation
 │
-├── scripts/
-│   ├── cleaned_metadata.ipynb
-│   ├── genotype.ipynb
-│   ├── pca.ipynb
-│   └── ml.ipynb
-
+├── processed/               # Cleaned data, results and model outputs
+│   ├── feature_importance_plots/
+│   ├── model_reports/
+│   └── target_distribution_plots/
+│
+└── scripts/                 # Analysis notebooks
+    ├── cleaned_metadata.ipynb
+    ├── genotype.ipynb
+    ├── malaria_frequencies.ipynb
+    ├── ml.ipynb
+    ├── pca.ipynb
+    └── pf8_population_structure_and_drug_resistance.ipynb
 ```
 # Scripts / Notebooks
 
